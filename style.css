@@ -1,0 +1,72 @@
+body 
+{
+   background-image: linear-gradient(to left top, #ce5eff, #ee4bda, #ff40b4, #ff4292, #ff4e74, #ff6262, #ff7852, #ff8d46);
+   color: white; 
+   padding: 40px;
+   font-family: 'Kulim Park', sans-serif;
+}
+
+.heading
+{
+    font-size: 30px; 
+    letter-spacing: 5px; 
+    font-family:'Montserrat', sans-serif;
+    transition-duration: 0.4s;
+}
+
+#heading:hover
+{
+    background-color: #00658d;
+}
+
+.example_emoji
+{
+    font-size: 35px;
+}
+
+#camera
+{
+    width: 350px; 
+    height: 300px; 
+    border-style: dashed;
+}
+
+#snapshot
+{
+    width: 350px; 
+    height: 300px; 
+    border-style: dashed;
+}
+
+.button
+{
+    background-color: white; 
+    font-size: 20px; 
+    font-weight:700; 
+    font-family: 'Kulim Park', sans-serif;
+    color: #3f00d3; 
+    border:5px solid #3f00d3;  
+    border-radius: 10px; 
+    width: 180px; 
+    height: 55px;
+    transition-duration: 0.4s;
+}
+
+#btn_capture:hover
+{
+    color: white;
+    background-color: #3f00d3;
+    border: none;
+}
+
+#btn_predict:hover
+{
+    color: white;
+    background-color: #3f00d3;
+    border: none;
+}
+
+#snapshot_div
+{
+    padding-bottom: 30px;
+}
